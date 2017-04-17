@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ProtonWave
+comment0.text=\r\n\ A\ proton\ wave\ that\ expands\ and\ destroys\ asteroids\ in\ its\ path.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n\ @version\ 0.1\r\n
+comment1.params=
+comment1.target=ProtonWave()
+comment1.text=\r\n\ Create\ a\ new\ proton\ wave.\r\n
+comment2.params=
+comment2.target=void\ initializeImages()
+comment2.text=\ \r\n\ Create\ the\ images\ for\ expanding\ the\ wave.\r\n
+comment3.params=
+comment3.target=void\ grow()
+comment3.text=\r\n\ grow\ will\ increase\ the\ size\ of\ the\ proton\ wave\ until\ it\ reaches\ maximum\ size,\r\n\ at\ which\ point\ it\ will\ remove\ itself\ from\ the\ world.\r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment4.text=\r\n\ Act\ for\ the\ proton\ wave\ is\:\ grow\ and\ check\ whether\ we\ hit\ anything.\r\n
+comment5.params=
+comment5.target=void\ checkCollision()
+comment5.text=\r\n\ chechCollision\ sees\ if\ our\ proton\ wave\ has\ touch\ an\ asteroid\ and\ deals\ damage\ to\ each\ asteroid\ it\ touches.\r\n\ @param\ There\ are\ no\ parameters.\r\n\ @return\ Nothing\ is\ returned.\r\n
+numComments=6
